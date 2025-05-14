@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "/Users/zek/Downloads/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/zek/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/zek/Downloads/flutter_foreground_task_example/geofencing_service/android/app/.cxx/Debug/576v1v4z/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/zek/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/zek/Downloads/flutter_foreground_task_example/geofencing_service/android/app/.cxx/Debug/576v1v4z/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {},
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/zek/Library/Android/sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/zek/Library/Android/sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": []
+}

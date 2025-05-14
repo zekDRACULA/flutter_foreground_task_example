@@ -1,0 +1,1 @@
+/Users/zek/Downloads/flutter_foreground_task_example/geofencing_service/build/app/intermediates/cxx/Debug/576v1v4z/obj/x86

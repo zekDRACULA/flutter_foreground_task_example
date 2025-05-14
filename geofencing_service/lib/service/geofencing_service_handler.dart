@@ -84,7 +84,9 @@ class GeofencingServiceHandler extends TaskHandler {
     Location location,
   ) async {
     _onLocationChanged(location);
-
+    dev.log(
+      'Geofence status changed: ${geofenceRegion.id} -> $geofenceStatus at (${location.latitude}, ${location.longitude})',
+    );
     // Notifies the user that the geofence status has changed.
   }
 

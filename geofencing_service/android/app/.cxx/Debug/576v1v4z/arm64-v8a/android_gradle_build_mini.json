@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/zek/Downloads/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/zek/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/zek/Downloads/flutter_foreground_task_example/geofencing_service/android/app/.cxx/Debug/576v1v4z/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/zek/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/zek/Downloads/flutter_foreground_task_example/geofencing_service/android/app/.cxx/Debug/576v1v4z/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

@@ -19,29 +19,33 @@ class MainPageController extends BaseController with ErrorHandlerMixin {
 
       // dummy regions
       final Set<GeofenceRegion> regions = {
-        GeofenceRegion.circular(
-          id: 'region_1',
-          data: {
-            'name': 'National Museum of Korea',
-          },
-          center: const LatLng(37.523085, 126.979619),
-          radius: 250,
-        ),
+        //Office region
         GeofenceRegion.polygon(
-          id: 'region_2',
+          id: 'office',
           data: {
-            'name': 'Gyeongbokgung Palace',
+            'name': 'Prakhar office',
           },
           polygon: [
-            const LatLng(37.583696, 126.973739),
-            const LatLng(37.583441, 126.979361),
-            const LatLng(37.582506, 126.980198),
-            const LatLng(37.579054, 126.979490),
-            const LatLng(37.576112, 126.979061),
-            const LatLng(37.576503, 126.974126),
-            const LatLng(37.580959, 126.973568),
+            const LatLng(28.607623802948144, 77.43675076015441),
+            const LatLng(28.607275563978593, 77.43641401431108),
+            const LatLng(28.607091820213373, 77.43574040538616),
+            const LatLng(28.60701220228866, 77.4353137555746),
+            const LatLng(28.60687811739804, 77.4347897377039),
+            const LatLng(28.60725285807073, 77.43467040365817),
+            const LatLng(28.60776056910787, 77.4345327105285),
+            const LatLng(28.607780716320633, 77.43453730029948),
+            const LatLng(28.608034570870366, 77.43535886930654),
+            const LatLng(28.608244101147726, 77.43633649052724),
           ],
         ),
+
+        //Home region
+        GeofenceRegion.polygon(id: 'home', data: {
+          'name': 'Prakhar home',
+          },
+           polygon: [
+            
+           ])
       };
 
       GeofencingService.instance.start(regions: regions);

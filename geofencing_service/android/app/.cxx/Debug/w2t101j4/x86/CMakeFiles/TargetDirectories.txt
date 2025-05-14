@@ -1,0 +1,2 @@
+/Users/zek/Downloads/flutter_foreground_task_example/geofencing_service/android/app/.cxx/Debug/w2t101j4/x86/CMakeFiles/edit_cache.dir
+/Users/zek/Downloads/flutter_foreground_task_example/geofencing_service/android/app/.cxx/Debug/w2t101j4/x86/CMakeFiles/rebuild_cache.dir

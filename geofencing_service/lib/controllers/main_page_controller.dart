@@ -40,12 +40,17 @@ class MainPageController extends BaseController with ErrorHandlerMixin {
         ),
 
         //Home region
-        GeofenceRegion.polygon(id: 'home', data: {
+        GeofenceRegion.polygon(id: 'home', 
+        data: {
           'name': 'Prakhar home',
-          },
-           polygon: [
-            
-           ])
+        }, polygon: [
+          const LatLng(28.43196, 77.50288),
+          const LatLng(28.43173, 77.50234),
+          const LatLng(28.43206, 77.5021),
+          const LatLng(28.43235, 77.50261),
+          const LatLng(28.43255, 77.50304),
+          const LatLng(28.43215, 77.50332),
+        ])
       };
 
       GeofencingService.instance.start(regions: regions);
